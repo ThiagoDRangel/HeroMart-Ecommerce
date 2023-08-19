@@ -49,3 +49,6 @@ npm run dev
 
  - Return All Orders `GET localhost:3019/orders` </br>
 ![Alt text](image-4.png)
+
+- Create a new Order `POST localhost:3019/orders` </br>
+![Alt text](image-5.png)
