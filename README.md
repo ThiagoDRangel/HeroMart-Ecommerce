@@ -28,7 +28,18 @@ docker exec -it trybesmith_api bash
 ```bash
 npm install
 ```
+- Use sequelize/database in Container
+```bash
+npm run db:reset
+```
 - Start server
 ```bash
 npm run dev
 ```
+> Route Products
+
+- Return All products `GET localhost:3019/products` </br>
+![Alt text](image.png)
+
+- Create a new product `POST localhost:3019/products` </br>
+![Alt text](image-1.png)
