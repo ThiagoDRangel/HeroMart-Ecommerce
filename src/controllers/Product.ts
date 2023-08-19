@@ -1,5 +1,6 @@
 import { Request, Response } from 'express';
 import ProductService from '../services/Product';
+import { Product } from 'src/types/Product';
 
 class ProductController {
   static async getAllProducts(req: Request, res: Response): Promise<Response> {
@@ -11,6 +12,7 @@ class ProductController {
     const newProduct = await ProductService.createProduct(req.body);
     return res.status(201).json(newProduct);
   }
+
 }
 
 export default ProductController;

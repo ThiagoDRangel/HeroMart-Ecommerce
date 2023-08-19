@@ -36,10 +36,13 @@ npm run db:reset
 ```bash
 npm run dev
 ```
-> Route Products
+> Route Products </br>
 
 - Return All products `GET localhost:3019/products` </br>
 ![Alt text](image.png)
 
 - Create a new product `POST localhost:3019/products` </br>
 ![Alt text](image-1.png)
+
+- Login User `POST localhost:3019/products` </br>
+ ![Alt text](image-2.png)

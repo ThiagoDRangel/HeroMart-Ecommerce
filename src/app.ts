@@ -1,5 +1,6 @@
 import express, { Application } from 'express';
 import productRouter from './routers/product';
+import loginRouter from './routers/login';
 
 class App {
   public readonly app: Application;
@@ -16,6 +17,7 @@ class App {
 
   private routes(): void {
     this.app.use('/products', productRouter);
+    this.app.use('/login', loginRouter);
   }
 
 }

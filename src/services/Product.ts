@@ -14,6 +14,7 @@ class ProductService {
     const newProduct = await ProductModel.create(product);
     return newProduct;
   }
+
 }
 
 export default ProductService;
