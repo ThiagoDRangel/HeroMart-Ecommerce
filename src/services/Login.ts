@@ -6,6 +6,10 @@ class LoginService {
     return user;
   }
   
+  static async getByIdUser(id: number): Promise<UserSequelizeModel | null> {
+    const user = (await UserModel.findByPk(id));
+    return user;
+  }
 }
 
 export default LoginService;

@@ -15,6 +15,11 @@ class ProductService {
     return newProduct;
   }
 
+  static async updateProduct(data: Product): Promise<[affectedCount: number]> {
+    const productUpdated = await ProductModel.update(data, { where: { id: data.id } });
+    return productUpdated;
+  }
+
 }
 
 export default ProductService;
