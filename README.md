@@ -39,16 +39,21 @@ npm run dev
 > Route Products </br>
 
 - Return All products `GET localhost:3019/products` </br>
-![Alt text](image.png)
+![Alt text](/images/image.png)
 
 - Create a new product `POST localhost:3019/products` </br>
-![Alt text](image-1.png)
+![Alt text](/images/image-1.png)
 
 - Login User `POST localhost:3019/products` </br>
- ![Alt text](image-2.png)
+ ![Alt text](/images/image-2.png)
 
  - Return All Orders `GET localhost:3019/orders` </br>
-![Alt text](image-4.png)
+![Alt text](/images/image-4.png)
 
 - Create a new Order `POST localhost:3019/orders` </br>
-![Alt text](image-5.png)
+![Alt text](/images/image-5.png)
+
+- Execute tests
+```bash
+npm run test:local
+```
